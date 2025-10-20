@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F45E9E652EA68453009B295E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45E9E642EA68453009B295E /* Media.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F45E9E422EA61E83009B295E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		F45E9E342EA61E80009B295E /* buscador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buscador.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45E9E412EA61E83009B295E /* buscadorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buscadorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45E9E4B2EA61E83009B295E /* buscadorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buscadorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45E9E642EA68453009B295E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		F45E9E2B2EA61E80009B295E = {
 			isa = PBXGroup;
 			children = (
+				F45E9E642EA68453009B295E /* Media.xcassets */,
 				F45E9E362EA61E80009B295E /* buscador */,
 				F45E9E442EA61E83009B295E /* buscadorTests */,
 				F45E9E4E2EA61E83009B295E /* buscadorUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45E9E652EA68453009B295E /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
