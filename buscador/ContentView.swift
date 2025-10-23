@@ -15,7 +15,7 @@ struct ContentView: View {
                     .imageScale(.large)
                     .foregroundStyle(.tint)
                     .tint(.red)
-                Text("ISSSTE Control de Personal")
+                Text("Hospital Regional ISSSTE Veracruz")
 
                 NavigationLink {
                     MainMenu()
@@ -50,11 +50,11 @@ struct ContentView: View {
                 .padding(.top, 8)
             }
             .padding()
-            .navigationTitle("Inicio")
+            .navigationTitle("Gestor de Personal")
         }
     }
 }
-
+// Vista Prueba de la navegación
 #Preview {
     ContentView()
 }

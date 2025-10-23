@@ -21,7 +21,7 @@ struct MainMenu: View {
                 HStack(spacing: 12) {
                     // Agregar
                     NavigationLink {
-                        SearchView()
+                        AddPerView()
                     } label: {
                         HStack {
                             Image(systemName: "plus")
@@ -99,12 +99,14 @@ struct MainMenu: View {
                 .buttonStyle(.plain)
                 .padding(.top, 16)
             }
-            .navigationTitle("Menú Principal")
+            .navigationTitle("Seleccione una acción")
             .padding()
         }
     }
 }
+
+// Vista Prueba de la navegación
 #Preview {
-    ContentView()
+    NavigationStack { MainMenu() }
 }
 
